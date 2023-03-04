@@ -1,24 +1,24 @@
-## Исследование надежности заемщиков на основании данных из банка
-Нами был произведен анализ статистических данных банка по всем заемщикам в некоторый период времени для выявления закономерностей в платежной способности клиентов. В третьем шаге исследования были выдвинуты гипотезы о степени влияния количества детей у клиента, его семейного положения, уровня дохода и цели взятия кредита, на возврат им кредита в срок. Результаты, полученные в ходе исследования, должны явиться основой для построения модели, вычисляющей кредитный рейтинг клиента по совокупности предоставленных характеристик.
+## Study of Borrower Reliability Based on Bank Data
 
-#### **Краткая сводка по выполненым задачам**
+We conducted an analysis of statistical data from the bank on all borrowers during a certain period of time to identify patterns in clients' payment ability. In the third step of the study, hypotheses were developed regarding the degree of influence of the number of children, marital status, income level, and loan purpose on timely loan repayment. The results obtained during the study should serve as a basis for constructing a model that calculates the client's credit rating based on the provided characteristics.
 
-##### 1. Обзор данных
+#### **Brief Summary of Completed Tasks**
 
-- Исходные данные были загружены и прочитаны. Просмотрена основная информация о них;
+##### 1. Data Review
 
+- The source data was loaded and read. The main information about them was reviewed;
 
-##### 2. Предобработка данных
+##### 2. Data Preprocessing
 
-- Была произведена обработка пропусков и неверных значений в столбцах `total_income`, `days_imployed` и `children`. Заменен тип данных в столбце `total_income`.
-- Обработаны неявные дубликаты в столбце `education`. 
-- Выполнена категоризация данных по столбцам `total_income` и `purpose`. Добавлены новые столбцы `total_income_category` и `purpose_category` соответственно.
+- Processing of missing and incorrect values in the `total_income`, `days_employed`, and `children` columns was performed. The data type in the `total_income` column was replaced.
+- Implicit duplicates in the `education` column were processed.
+- Data categorization was performed for the `total_income` and `purpose` columns. New columns `total_income_category` and `purpose_category` were added, respectively.
 
-##### 3. Исследование гипотез
+##### 3. Hypothesis Testing
 
-- Выдвинута и исследована гипотеза о влиянии кол-ва детей у клиента на возврат им кредита в срок. Столбцы `children` и `debt` в исходных данных;
-- Выдвинута и исследована гипотеза о влиянии семейного положения клиента на возврат им кредита в срок. Столбцы `family_status` и `debt` в исходных данных;
-- Выдвинута и исследована гипотеза о влиянии уровня дохода клиента на возврат им кредита в срок. Столбцы `total_income_category` и `debt` в данных;
-- Выдвинута и исследована гипотеза о влиянии целей взятия кредита клиентом на возврат им его в срок. Столбцы `purpose_category` и `debt` в данных;
-- Обоснованы причины появляения пропусков в исходных данных;
-- Обосновано применение метода заполнения пропусков медианным значением;
+- A hypothesis was formulated and tested regarding the impact of the number of children on timely loan repayment. The `children` and `debt` columns in the source data were used.
+- A hypothesis was formulated and tested regarding the impact of the client's marital status on timely loan repayment. The `family_status` and `debt` columns in the source data were used.
+- A hypothesis was formulated and tested regarding the impact of the client's income level on timely loan repayment. The `total_income_category` and `debt` columns in the data were used.
+- A hypothesis was formulated and tested regarding the impact of the client's loan purpose on timely loan repayment. The `purpose_category` and `debt` columns in the data were used.
+- The `reasons for missing values` in the source data were justified.
+- The use of the `method of filling in missing values with the median` was justified.
