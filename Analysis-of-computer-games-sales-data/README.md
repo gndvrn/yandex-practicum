@@ -1,5 +1,5 @@
 <b>IMPORTANT</b>
-<p>I use <code>Plotly</code> to display graphs and this library doesn't working properly in GitHub Preview mode.</p>
+<p>I use <code>Plotly</code> to display graphs and this library doesn't work properly in GitHub Preview mode.</p>
 
 Use the following link to see the project in its original format:
 
