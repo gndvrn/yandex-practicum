@@ -1,5 +1,14 @@
 <div style="border: 3px solid rgb(119,212,150); padding: 20px">
 
+<b>⚠️IMPORTANT</b>
+<p>I use <code>Pandas Profiling Report</code> to conduct exploratory data analysis and this library doesn't work properly in GitHub Preview mode.</p>
+
+Use the following link to see the project in its original format:
+
+[Full project on nbviewer.org](https://nbviewer.org/github/gndvrn/data-science-projects/blob/main/Selection-of-an-oil-well-for-GlavRosGosNeft/Selection-of-an-oil-well-for-GlavRosGosNeft.ipynb)
+    
+---
+    
 To conduct the analysis, we were provided with data on the characteristics of oil fields in three different regions. A detailed description of the data was not provided for confidentiality reasons. Based on the set of indicators provided, it was necessary to evaluate which of the regions would be the most profitable for well development and also assess the risk of not recouping the investment.
 
 ### Brief summary of completed tasks
