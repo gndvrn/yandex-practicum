@@ -1,4 +1,4 @@
-<div style="border: 3px solid rgb(119,212,150); padding: 20px">
+# Prediction analysis of gold recovery efficiency ⚜️
 
 It was required to prepare a prototype of a machine learning model for [Zyfra](http://zyfra.com/) company. The model should help optimize production by predicting the gold recovery coefficient from gold-bearing ore.
     
@@ -62,5 +62,3 @@ There is an increase in the total concentration of metals during the purificatio
 ### What could lead to incomplete results?
 - Raw material purification methods do not cope well with separating lead impurities in ore.
 - The presence of records about ore that does not contain gold. Perhaps these are errors in measurements.
-
-</div>
