@@ -1,3 +1,5 @@
+# Taxi cars forecasting 🚕
+
 A machine learning model was developed for a company with an unprecedentedly cool name, "Chotyenkoe Taxi," to predict the number of car orders for the next hour. The technical task required obtaining a model that would show an <tt>RMSE</tt> metric value of less than <tt>48</tt> on the test set. We obtained such a model.
 
 ### Brief summary of completed tasks
