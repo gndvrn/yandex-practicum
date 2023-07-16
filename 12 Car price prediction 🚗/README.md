@@ -1,3 +1,5 @@
+# Car price prediction 🚗
+
 A machine learning model was developed and tested for predicting the market price of used cars based on their technical characteristics for the German service "Not Crashed, Not Painted". 
 
 ### Brief summary of completed tasks
