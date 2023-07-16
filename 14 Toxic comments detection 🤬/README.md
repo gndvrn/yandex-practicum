@@ -1,6 +1,6 @@
 # Toxic comments detection 🤬
 
-For the new service of the "WikiShop" company, it was necessary to develop a classification model for comments as positive or negative in order to speed up the moderation process. The client required a model that shows the F1-score value on test data above 0.75.
+For the new service of the "WikiShop" company, it was necessary to develop a classification model for comments as positive or negative in order to speed up the moderation process. The client required a model that shows the <tt>F1-score</tt> value on test data above <tt>0.75</tt>.
 
 ### Brief summary of completed tasks
 
@@ -36,12 +36,11 @@ Pipelines were built for each of the models. The principle of training models: c
 | RandomForestClassifier        | 0.61                              |
 
 <clear></clear>
-<center>Based on the client's criteria, the model was selected</center>
+<center>Based on the client's criteria, the following model was selected</center>
 <clear></clear>
-<center><tt>LogisticRegression(C=5, class_weight='balanced', max_iter=150,
-                                    solver='liblinear', tol=1e-05)</tt></center>
+<center><tt>LogisticRegression</tt></center>
     
 #### Step 5. Model testing
 
-- The model was tested on a test dataset. The F1-score value was 0.754;
+- The model was tested on a test dataset. The F1-score value was <tt>0.754</tt>;
 - The model was checked for adequacy. The model is adequate.
