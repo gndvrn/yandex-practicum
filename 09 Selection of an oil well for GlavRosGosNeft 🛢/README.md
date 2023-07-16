@@ -1,4 +1,4 @@
-<div style="border: 3px solid rgb(119,212,150); padding: 20px">
+# Selection of an oil well for GlavRosGosNeft 🛢
 
 <b>⚠️IMPORTANT</b>
 <p>I use <code>Pandas Profiling Report</code> to conduct exploratory data analysis and this library doesn't work properly in GitHub Preview mode.</p>
@@ -49,5 +49,3 @@ According to our forecasts, it is in this region, relative to other regions:
 1. The highest profit is possible.
 2. The confidence interval contains only positive income values.
 3. There are minimal and suitable for solving the problem conditions risks of losing invested funds. (The risk of losing funds should be less than 2.5%. In our case, it takes the following values: `~0.8%-1.5%`)
-
-</div>
