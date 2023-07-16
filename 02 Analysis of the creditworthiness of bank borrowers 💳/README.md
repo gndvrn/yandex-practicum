@@ -1,4 +1,4 @@
-## Study of Borrower Reliability Based on Bank Data
+# Analysis of the creditworthiness of bank borrowers 💳
 
 We conducted an analysis of statistical data from the bank on all borrowers during a certain period of time to identify patterns in clients' payment ability. In the third step of the study, hypotheses were developed regarding the degree of influence of the number of children, marital status, income level, and loan purpose on timely loan repayment. The results obtained during the study should serve as a basis for constructing a model that calculates the client's credit rating based on the provided characteristics.
 
