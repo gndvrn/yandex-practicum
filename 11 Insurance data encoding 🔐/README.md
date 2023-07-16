@@ -1,3 +1,5 @@
+# Insurance data encoding 🔐
+
 It was necessary to develop an algorithm for matrix encryption of object features in data. This algorithm will limit the circle of people in the company who have access to them.
 
 For this purpose, we were provided with data on clients of one of the insurance companies.
