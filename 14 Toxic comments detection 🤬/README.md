@@ -1,3 +1,5 @@
+# Toxic comments detection 🤬
+
 For the new service of the "WikiShop" company, it was necessary to develop a classification model for comments as positive or negative in order to speed up the moderation process. The client required a model that shows the F1-score value on test data above 0.75.
 
 ### Brief summary of completed tasks
