@@ -1,4 +1,5 @@
-<div style="border: 3px solid rgb(119,212,150); padding: 20px">
+# Forecasting the outflow of bank customers 🏦
+
 We were provided with historical data on bank customers. The task was to build a predictive model that would show a `F1 score` of *more than 0.59 on the test data.*
 
 The final model showed an `F1 score` of `0.619`, which is a satisfactory result for our task.
@@ -63,4 +64,3 @@ The final model showed an `F1 score` of `0.619`, which is a satisfactory result 
 - **Small amount of data.** Due to this, the models were prone to underfitting, which negatively affects the metric values, and in the case of downsampling the data, the sample size was too small;
 - **Small number of features.** Perhaps adding some significant customer features could have a positive impact on model predictions quality, given that the data volume is not large;
 - **Small amount of information about churned customers (in addition to the previous point).** During the study, it was found that the ratio of classes in the target feature is 4:1 in favor of class 0 (customer did not leave), and we needed to predict class 1, so during model training, they tended to better predict class 0. (even in case of eliminating class imbalance by increasing or decreasing the training sample, the number of unique customers in class 1 did not change at all, so if there were initially more of them, the results could have improved)
-</div>
